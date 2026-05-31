@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Asda List Exporter",
+  "version": "0.1.0",
+  "description": "Export your Asda basket or shopping list into a copyable text list.",
+  "action": {
+    "default_title": "Export Asda List",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://groceries.asda.com/*",
+    "https://www.asda.com/*"
+  ]
+}
